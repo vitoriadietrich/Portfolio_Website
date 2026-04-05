@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#fff;
+    overflow:hidden;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 80px;
+}
+
+.logo{
+    font-size:26px;
+    font-weight:500;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#ff3b3b;
+}
+
+/* MENU CENTRAL */
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+    margin-left:120px;
+}
+
+nav ul li{
+    font-size:14px;
+    color:#555;
+    cursor:pointer;
+}
+
+/* SEARCH */
+.search{
+    border:1px solid #aaa;
+    padding:5px 12px;
+    border-radius:6px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background:#fff;
+}
+
+.search i{
+    font-size:14px;
+    color:#555;
+}
+
+.search input{
+    border:none;
+    outline:none;
+    font-size:13px;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:40px 80px;
+}
+
+/* TEXT */
+.text{
+    max-width:520px;
+    position:relative;
+    z-index:2; /* texto na frente */
+}
+
+.text h3{
+    font-size:18px;
+    color:#777;
+    font-weight:400;
+    position: relative;
+    z-index: 1; /* na frente */
+}
+
+.text h1{
+    font-size:70px;
+    font-weight:600;
+    color:#2c2f4a;
+    margin:10px 0;
+    position: relative;
+    z-index: 1; /* na frente */
+}
+
+.text h2{
+    font-size:26px;
+    font-weight:400;
+    position: relative;
+    z-index: 1; /* na frente */
+}
+
+.highlight{
+    color:#00c9a7;
+}
+
+/* BUTTONS */
+.buttons{
+    margin-top:25px;
+    display:flex;
+    gap:15px;
+    position: relative;
+    z-index: 1; /* na frente */
+}
+
+.btn{
+    padding:10px 22px;
+    border:none;
+    border-radius:6px;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.btn1{
+    background:linear-gradient(90deg,#00c9a7,#6c5ce7);
+}
+
+.btn2{
+    background:linear-gradient(90deg,#6c5ce7,#ff6fa5);
+}
+
+/* IMAGE */
+.image{
+    position:relative;
+    width:450px;
+    height:550px;
+}
+
+.image img{
+    width:111%;
+    position:absolute;
+    right:0;
+    bottom:-30%;
+    z-index:2;
+}
+
+/* CIRCLES */
+.circle{
+    position:absolute;
+    border-radius:50%;
+    opacity:0.6;
+    z-index:0; /* fica atrás */
+}
+
+/* círculo atrás do texto */
+.c1{
+    width:380px;
+    height:380px;
+    background:#a8e6e1;
+    left:-100px;
+    top:40px;
+    z-index: 0; /* atrás */
+
+}
