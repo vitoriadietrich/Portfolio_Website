@@ -2,23 +2,23 @@
 
 Um projeto simples de **site portfólio** usando HTML e CSS com efeito de **animação de texto digitando**.
 
-## ✨ Sobre
+## Sobre
 
 Este projeto demonstra como criar um **portfólio moderno e responsivo**, incluindo uma animação de texto estilo typing.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML
 - CSS
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - Layout de portfólio
 - Design responsivo
 - Animação de texto (typing effect)
 - Estrutura simples e limpa
 
-## 🚀 Como usar
+## Como usar
 
 1. Baixe ou clone o repositório  
 2. Abra o arquivo `index.html` no navegador
